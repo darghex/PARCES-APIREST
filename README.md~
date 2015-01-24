@@ -1,9 +1,0 @@
-# PARCES-WS
-Aplicación Servidor (Web Services) para el app móvil PARCES
-
-dependences:
-
-- Flask
-- python-mysqldb
-- requets
-- sqlalchemy
