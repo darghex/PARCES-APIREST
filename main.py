@@ -8,7 +8,7 @@ import MySQLdb
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'development key'
 
-engine = create_engine("mysql+mysqldb://parces:p4rc3s@localhost:3306/parces")
+engine = create_engine("mysql+mysqldb://parces:user@host:port/dbname")
 Session = sessionmaker(bind=engine)
 session = Session()
 
